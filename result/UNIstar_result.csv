@@ -1,0 +1,6 @@
+TSP_File,Algorithm,Cost,Time_ms,Num_Cities
+../dataset/UNIstar.tsp,Greedy Heuristic,297.57,0,17
+../dataset/UNIstar.tsp,Held-Karp,234.05,201,17
+../dataset/UNIstar.tsp,Insertion Method,250.57,0,17
+../dataset/UNIstar.tsp,MST-based 2-approx,270.89,0,17
+../dataset/UNIstar.tsp,Simulated Annealing,234.63,110,17
