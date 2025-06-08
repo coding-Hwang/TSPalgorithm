@@ -1,0 +1,2 @@
+TSP_File,Algorithm,Cost,Time_ms,Num_Cities
+../dataset/mona-lisa100K.tsp,Grid SA,6871358.13,177324,100000

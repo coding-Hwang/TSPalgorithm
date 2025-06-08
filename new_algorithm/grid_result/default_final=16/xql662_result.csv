@@ -1,0 +1,2 @@
+TSP_File,Algorithm,Cost,Time_ms,Num_Cities
+../dataset/xql662.tsp,Grid SA,4343.14,1104,662

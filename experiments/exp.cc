@@ -16,7 +16,8 @@
 #include "../existing_TSP/simulated_annealing.h"
 #include "../existing_TSP/MST-based.h"
 
-#include "../new_algorithm/me.h"
+// #include "../new_algorithm/gridSA.h"
+#include "../new_algorithm/gridSA_faster.h"
 
 using namespace std;
 using namespace chrono;
@@ -123,12 +124,13 @@ void run_exp(const string& tsp_file) {
     string csv_file = get_csv_filename(tsp_file);
     write_csv_header(csv_file);
 
-    run_and_record(tsp_file, "Grid SA", gridSA_TSP, points, csv_file); // O(n^2 log n) (heuristic)
+    // run_and_record(tsp_file, "Grid SA", gridSA_TSP, points, csv_file); // O(n^2 log n) (heuristic)
+    // run_and_record(tsp_file, "Grid SA fast", gridSA_fast, points, csv_file); // O(n^2 log n) (heuristic)
 
     // run_and_record(tsp_file, "Greedy Heuristic", greedy, points, csv_file); // O(n^2)
     // run_and_record(tsp_file, "Held-Karp", held_karp, points, csv_file); // O(n^2 * 2^n)
-    // run_and_record(tsp_file, "MST-based 2-approx", mst_2approx, points, csv_file); // O(n^2 log n)
-    // run_and_record(tsp_file, "Simulated Annealing", simulatedAnnealing, points, csv_file); // O(n^2 log n) (heuristic)
+    run_and_record(tsp_file, "MST-based 2-approx", mst_2approx, points, csv_file); // O(n^2 log n)
+    run_and_record(tsp_file, "Simulated Annealing", simulatedAnnealing, points, csv_file); // O(n^2 log n) (heuristic)
     // run_and_record(tsp_file, "Insertion Method", nearestInsertion, points, csv_file); // O(n^2)
 
 }

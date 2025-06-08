@@ -1,0 +1,3 @@
+TSP_File,Algorithm,Cost,Time_ms,Num_Cities
+../dataset/earring200k.tsp,Grid SA fast,9850191.95,375335,200000
+../dataset/earring200k.tsp,Greedy Heuristic,9762381.39,457052,200000

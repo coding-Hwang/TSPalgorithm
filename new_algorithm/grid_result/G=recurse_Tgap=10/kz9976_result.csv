@@ -1,0 +1,2 @@
+TSP_File,Algorithm,Cost,Time_ms,Num_Cities
+../dataset/kz9976.tsp,Grid SA,1609992.27,2644,9976
