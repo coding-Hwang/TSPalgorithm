@@ -187,14 +187,14 @@ TSPResult gridSA_TSP(const vector<Point>& P)
     int G = result.second;                   // 격자 개수
     cout << "Grid count: " << G << endl;
 
-    vector<vector<int>> sub(G);                              // 격자별 부분 투어
+    vector<vector<int>> sub(G);          // 격자별 부분 투어
 
     /* ───────────────── 1) 격자 내부 SA ────────────── */
     for (int g = 0; g < G; ++g) {
         auto& idx = grid[g];
         if (idx.empty()) continue;
 
-        if (idx.size() == 1) {       // (도시 1개) → 그대로
+        if (idx.size() == 1) {   // (도시 1개) → 그대로
             sub[g] = { idx[0] };     //   {v}
             continue;
         }

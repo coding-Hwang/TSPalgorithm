@@ -3,3 +3,4 @@ TSP_File,Algorithm,Cost,Time_ms,Num_Cities
 ../dataset/kz9976.tsp,Insertion Method,1351750.79,1165948,9976
 ../dataset/kz9976.tsp,MST-based 2-approx,1454390.28,1068,9976
 ../dataset/kz9976.tsp,Simulated Annealing,17723366.25,55417,9976
+../dataset/kz9976.tsp,Grid SA fast,1497049.40,16907,9976

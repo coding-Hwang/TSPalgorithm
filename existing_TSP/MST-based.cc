@@ -108,5 +108,3 @@ TSPResult mst_2approx(const vector<Point>& points) {
 }
 
 
-// ref - https://gazelle-and-cs.tistory.com/18
-

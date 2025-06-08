@@ -3,3 +3,4 @@ TSP_File,Algorithm,Cost,Time_ms,Num_Cities
 ../dataset/a280.tsp,Insertion Method,2986.71,32,280
 ../dataset/a280.tsp,MST-based 2-approx,3740.20,1,280
 ../dataset/a280.tsp,Simulated Annealing,2908.50,890,280
+../dataset/a280.tsp,Grid SA fast,2908.50,864,280

@@ -3,3 +3,4 @@ TSP_File,Algorithm,Cost,Time_ms,Num_Cities
 ../dataset/xql662.tsp,Insertion Method,3258.28,514,662
 ../dataset/xql662.tsp,MST-based 2-approx,3692.89,6,662
 ../dataset/xql662.tsp,Simulated Annealing,3590.15,1832,662
+../dataset/xql662.tsp,Grid SA fast,4313.52,1369,662
