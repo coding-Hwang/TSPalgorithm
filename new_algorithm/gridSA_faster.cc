@@ -71,7 +71,7 @@ vector<int> simulatedAnnealing(const vector<Point>& P, const vector<int>& seed, 
     };
 
     while (T > T_min) {
-        for (int i = 0; i < 100; ++i) {
+        for (int i = 0; i < 50; ++i) { // 100 default
             vector<int> nxt = cur;
             swapTwo(nxt);
             double nxtLen = tourLength(P, nxt);

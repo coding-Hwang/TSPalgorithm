@@ -17,8 +17,8 @@ TSP_LIST=(
     # "../dataset/a280.tsp"
     # "../dataset/xql662.tsp"
     # "../dataset/kz9976.tsp"
-    "../dataset/mona-lisa100K.tsp"
-    # "../dataset/earring200k.tsp"
+    # "../dataset/mona-lisa100K.tsp"
+    "../dataset/earring200k.tsp"
 )
 
 # 3. 각 TSP 파일에 대해 실험 실행
