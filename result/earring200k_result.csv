@@ -1,6 +1,6 @@
 TSP_File,Algorithm,Cost,Time_ms,Num_Cities
-../dataset/earring200k.tsp,Grid SA fast(50),9914007.65,185554,200000
-../dataset/earring200k.tsp,Grid SA fast(100),9850191.95,375335,200000
+../dataset/earring200k.tsp,Grid SA(50),9914007.65,185554,200000
+../dataset/earring200k.tsp,Grid SA(100),9850191.95,375335,200000
 ../dataset/earring200k.tsp,Greedy Heuristic,9762381.39,457052,200000
 ../dataset/earring200k.tsp,MST-based 2-approx,11818446.78,965440,200000
 ../dataset/earring200k.tsp,Simulated Annealing,1429165963.60,2104528,200000

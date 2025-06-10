@@ -2,6 +2,6 @@ TSP_File,Algorithm,Cost,Time_ms,Num_Cities
 ../dataset/mona-lisa100K.tsp,Greedy Heuristic,6886142.58,109059,100000
 ../dataset/mona-lisa100K.tsp,MST-based 2-approx,8397185.05,218914,100000
 ../dataset/mona-lisa100K.tsp,Simulated Annealing,519055607.56,862616,100000
-../dataset/mona-lisa100K.tsp,Grid SA fast(100),6831779.85,163961,100000
+../dataset/mona-lisa100K.tsp,Grid SA(100),6831779.85,163961,100000
 ../dataset/mona-lisa100K.tsp,Grid SA(50),6871195.71,95165,100000
 
